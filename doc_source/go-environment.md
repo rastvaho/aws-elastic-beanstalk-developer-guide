@@ -70,7 +70,7 @@ You can use a [configuration file](ebextensions.md) to set configuration options
 
 The Go platform supports one platform\-specific configuration namespace in addition to the [namespaces supported by all platforms](command-options-general.md)\. The `aws:elasticbeanstalk:container:golang:staticfiles` namespace lets you define options that map paths on your web application to folders in your application source bundle that contain static content\.
 
-For example, this [configuration file](ebextensions.md) tells the proxy server to serve files in the `myimages` folder at the path `/images`:
+For example, this [configuration file](ebextensions.md) tells the proxy server to serve files in the `staticimages` folder at the path `/images`:
 
 **Example \.ebextensions/go\-settings\.config**  
 
